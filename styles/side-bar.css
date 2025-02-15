@@ -1,8 +1,26 @@
 .side-bar {
-    background-color: rgb(36, 160, 160);
+    background-color: rgb(255, 255, 255);
     position: fixed;
     top: 55px;
     bottom: 0;
     left: 0;
-    width: 72px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.side-bar-img {
+    height: 30px;
+}
+.side-bar-link {
+    justify-content: center;
+    width: 60px;
+}
+.side-bar-text {
+    font-size: 10px;
+    padding-top: 10px;
+}
+.side-bar-link:hover {
+    opacity: 0.7;
+    background-color: rgb(207, 210, 211);
 }
