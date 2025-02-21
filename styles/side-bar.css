@@ -4,23 +4,25 @@
     top: 55px;
     bottom: 0;
     left: 0;
-    width: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.side-bar-img {
-    height: 30px;
+    width: 70px;
+    z-index: 200;
 }
 .side-bar-link {
-    justify-content: center;
-    width: 60px;
-}
-.side-bar-text {
-    font-size: 10px;
-    padding-top: 10px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    justify-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
 }
 .side-bar-link:hover {
-    opacity: 0.7;
-    background-color: rgb(207, 210, 211);
+    background-color: rgba(212, 212, 212, 0.708);
+}
+.side-bar-img {
+    height: 22px;
+}
+.side-bar-text {
+    font-family: Roboto,Arial;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
 }

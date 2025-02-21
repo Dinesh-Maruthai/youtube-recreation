@@ -4,6 +4,7 @@
     column-gap: 15px;
     row-gap: 40px;
     padding-left: 20px;
+    background-color: rgba(249, 247, 247, 0.722);
   }
   .thumbnail-div{
     position: relative;
