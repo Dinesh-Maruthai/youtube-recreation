@@ -1,6 +1,6 @@
 .video-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 15px;
     row-gap: 40px;
     padding-left: 20px;
@@ -54,3 +54,16 @@
     display: grid;
     grid-template-columns: 50px 1fr;
  }
+ @media screen and (max-width: 963px) {
+  .video-grid {
+
+    grid-template-columns: 1fr 1fr 1fr; /* Adjust for smaller screens */
+    column-gap: 10px; /* Optional: adds spacing between grid items */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr; /* Single column for very small screens */
+  }
+}

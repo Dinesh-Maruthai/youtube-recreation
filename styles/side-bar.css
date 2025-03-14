@@ -26,3 +26,11 @@
     text-align: center;
     font-size: 10px;
 }
+@media screen and (min-width: 375px) {
+    .side-bar {
+        width: 60px;
+    }
+    .side-bar-link {
+        height: 50px;
+    }
+}
