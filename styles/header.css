@@ -125,7 +125,8 @@ body {
 }
 @media screen and (max-width:376px) {
     body {
-      padding-left: 60px;
+      padding-left: 10px;
+      padding-right: 10px;
     }
     .hamburger-menu-img {
         height: 24px;

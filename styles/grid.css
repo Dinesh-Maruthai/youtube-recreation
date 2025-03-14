@@ -67,3 +67,11 @@
     grid-template-columns: 1fr 1fr; /* Single column for very small screens */
   }
 }
+@media  screen and (max-width: 376px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+    padding-left: 5px;
+    padding-right: 4px;
+  }
+  
+}
