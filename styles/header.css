@@ -123,7 +123,7 @@ body {
     height: 34px;
     border-radius: 16px;
 }
-@media screen and (max-width:376px) {
+@media screen and (max-width:431px) {
     body {
       padding-left: 10px;
       padding-right: 10px;
